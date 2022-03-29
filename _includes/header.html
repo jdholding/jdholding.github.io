@@ -1,3 +1,23 @@
-<header>
-  This is a header
-</header>
+<html lang="en">
+  <head>
+    <link href='{{ "/assets/css/main.css" | prepend: site.baseurl }}' rel="stylesheet">
+    <script defer src="{{'/assets/vendor/jquery.min.js' | prepend: site.baseurl}}"></script>
+    <script defer src="{{'/assets/vendor/popper.min.js' | prepend: site.baseurl}}"></script>
+    <script defer src="{{'/assets/vendor/bootstrap.min.js' | prepend: site.baseurl}}"></script>
+  </head>
+<body>    
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">John's github page</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="#">Home</a></li>
+      <li><a href="#">Page 1</a></li>
+      <li><a href="#">Page 2</a></li>
+      <li><a href="#">Page 3</a></li>
+    </ul>
+  </div>
+</nav>
+</body>
+</html>

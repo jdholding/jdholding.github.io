@@ -32,7 +32,11 @@ collections:
   pages:
     output: true
     permalink: /:title 
-
+sass:
+  load_paths:
+    - _sass
+    - node_modules
+  style: compressed
 # Build settings
 theme: minima
 plugins:

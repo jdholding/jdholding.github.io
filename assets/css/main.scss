@@ -1,0 +1,25 @@
+---
+# Front matter comment to ensure Jekyll properly reads file.
+---
+// Required Bootstrap files.
+// Required
+@import "bootstrap/scss/functions";
+@import "bootstrap/scss/variables";
+@import "bootstrap/scss/mixins";
+// Optional files.
+@import "bootstrap/scss/reboot";
+@import "bootstrap/scss/type";
+@import "bootstrap/scss/images";
+@import "bootstrap/scss/grid";
+
+
+$font-stack: Helvetica, sans-serif;
+$primary-color: #CDE7B0;
+$background-color: #C3A698;
+$secondary-color: #C3C9E9; 
+
+body {
+  font: 100% $font-stack;
+  color: $primary-color;
+  background: $background-color
+}
