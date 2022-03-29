@@ -1,0 +1,25 @@
+{
+  "name": "jdholding.github.io",
+  "version": "1.0.0",
+  "description": "Github personal page for John",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "jekyll serve",
+    "predeploy": "JEKYLL_ENV=production jekyll build",
+    "deploy": "gh-pages -d _site"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jdholding/jdholding.github.io.git"
+  },
+  "author": "John Holding",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jdholding/jdholding.github.io/issues"
+  },
+  "homepage": "https://github.com/jdholding/jdholding.github.io#readme",
+  "dependencies": {
+    "gh-pages": "^3.2.3"
+  }
+}
